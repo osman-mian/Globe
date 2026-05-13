@@ -18,7 +18,8 @@ REQUIREMENTS:
 	* numpy
 	* mpmath
 	* matplotlib
-	* cdt (causal discovery toolbox) 
+	* cdt (causal discovery toolbox)
+    * rpy2 (to run Rcode of earth regression spline package)  
 
 - R Version: 3.6 or better
 - R packages:
@@ -27,6 +28,7 @@ REQUIREMENTS:
 	* kpcalg/RCIT:  https://github.com/Diviyan-Kalainathan/RCIT
 	* spresebn: https://www.rdocumentation.org/packages/sparsebn/versions/0.1.0
 	* bnlearn: https://www.rdocumentation.org/packages/bnlearn/versions/4.5
+    * earth: https://cran.r-project.org/package=earth
 
 ## Notes
 - This version of GLOBE has been cleaned and commented for the ease of use. The implementation can be further optimized but is not in my immediete plans.
